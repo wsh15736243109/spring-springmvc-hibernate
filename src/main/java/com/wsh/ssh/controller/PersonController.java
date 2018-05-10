@@ -46,6 +46,11 @@ public class PersonController {
         return "main";
     }
 
+    @RequestMapping("/toIndex")
+    public String getJsp(){
+        return "test_html";
+    }
+
     /**
      * 跳转到添加页面
      * savepage.jsp

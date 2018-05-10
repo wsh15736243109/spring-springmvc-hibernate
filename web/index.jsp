@@ -13,5 +13,6 @@
   <body>
 
   <td align="right" > <a href="${pageContext.request.contextPath}/person/main">查询</a></td>
+  <td align="right" > <a href="${pageContext.request.contextPath}/person/toIndex">html</a></td>
   </body>
 </html>
